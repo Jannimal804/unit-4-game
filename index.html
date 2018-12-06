@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Jewel Collector</title>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script src="game.js"></script>
+</head>
+
+<body>  
+<!-- body onload="start()" -->  
+    <h1>Jewel Collector Game</h1>
+    <p>Click the jewels until the total matches your magic number!</p>
+    <p>If you go over your magic number, the game will reset.</p>
+ 	<!-- <p><a href="http://www.htmldog.com">HTMLDOG</a></p> -->
+    <h2><span id="magicNumber"></span></h2>
+
+    <h3>Wins<span id="wins"></span></h3>
+    <h3>Losses<span id="losses"></span></h3>
+
+	<div class="container">
+    	<div id="gems">
+        	<div class="row">
+            	<div class="col" id="blue">
+             	<img src=".\images\bluegem.png" alt=" blue gem" height="60" width="60">
+            	</div>
+            	<div class="col">
+                	<img src=".\images\greengem.png" alt="green gem" height="60" width="60"><span id="green"></span>
+            	</div>
+            	<div class="col">
+                	<img src=".\images\purplegem.png" alt="purple gem" height="60" width="60"><span id="purple"></span>
+            	</div>
+            	<div class="col">
+             		<img src=".\images\pinkgem.png" alt="pink gem" height="60" width="60"><span id="pink"> </span>
+            	</div>
+        	</div>
+    	</div>
+	</div>
+<!-- <a href="javascript:start();"> </a>
+</body>
+</html>
